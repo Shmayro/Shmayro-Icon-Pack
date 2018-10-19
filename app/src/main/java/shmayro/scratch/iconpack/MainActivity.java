@@ -1,4 +1,4 @@
-package areeb.scratch.iconpack;
+package shmayro.scratch.iconpack;
 
 import android.app.Activity;
 import android.os.Bundle;

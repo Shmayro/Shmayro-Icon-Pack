@@ -1,11 +1,578 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
-    <iconback img1="iconback" />
-	<iconmask img1="iconmask" />
-    <iconupon img1="iconupon" />
     <scale factor=".75" />
 
     <!-- Browser -->
-	<item component="ComponentInfo{com.android.browser/com.android.browser.BrowserActivity}" drawable="com_android_browser_browseractivity" />
-    <item component="ComponentInfo{com.google.android.browser/com.android.browser.BrowserActivity}" drawable="com_android_browser_browseractivity" />
+    <!--<item component="ComponentInfo{com.android.browser/com.android.browser.BrowserActivity}" drawable="com_android_browser_browseractivity" />-->
+    <!--<item component="ComponentInfo{com.google.android.browser/com.android.browser.BrowserActivity}" drawable="com_android_browser_browseractivity" />-->
+    <item
+        component=":LAUNCHER_ACTION_APP_DRAWER"
+        drawable="ic_0001" />
+    <item
+        component="ComponentInfo{special.icons/allapps}"
+        drawable="ic_0001" />
+    <item
+        component="ComponentInfo{special.icons/folder}"
+        drawable="ic_0002" />
+    <item
+        component="ComponentInfo{com.android.chrome/com.google.android.apps.chrome.Main}"
+        drawable="ic_0003" />
+    <item
+        component="ComponentInfo{com.android.contacts/com.oneplus.contacts.activities.OPPeopleActivity}"
+        drawable="ic_0004" />
+    <item
+        component="ComponentInfo{com.android.dialer/com.oneplus.contacts.activities.OPDialtactsActivity}"
+        drawable="ic_0005" />
+    <item
+        component="ComponentInfo{com.android.mms/com.android.mms.ui.ConversationList}"
+        drawable="ic_0006" />
+    <item
+        component="ComponentInfo{com.android.settings/com.android.settings.Settings}"
+        drawable="ic_0007" />
+    <item
+        component="ComponentInfo{com.android.vending/com.android.vending.AssetBrowserActivity}"
+        drawable="ic_0008" />
+    <item
+        component="ComponentInfo{com.google.android.apps.docs/com.google.android.apps.docs.app.NewMainProxyActivity}"
+        drawable="ic_0009" />
+    <item
+        component="ComponentInfo{com.google.android.apps.maps/com.google.android.maps.MapsActivity}"
+        drawable="ic_0010" />
+    <item
+        component="ComponentInfo{com.google.android.apps.photos/com.google.android.apps.photos.home.HomeActivity}"
+        drawable="ic_0011" />
+    <item
+        component="ComponentInfo{com.google.android.calendar/com.android.calendar.AllInOneActivity}"
+        drawable="ic_0012" />
+    <item
+        component="ComponentInfo{com.google.android.gm/com.google.android.gm.ConversationListActivityGmail}"
+        drawable="ic_0013" />
+    <item
+        component="ComponentInfo{com.google.android.music/com.android.music.activitymanagement.TopLevelActivity}"
+        drawable="ic_0014" />
+    <item
+        component="ComponentInfo{com.google.android.videos/com.google.android.youtube.videos.EntryPoint}"
+        drawable="ic_0015" />
+    <item
+        component="ComponentInfo{com.google.android.youtube/com.google.android.youtube.app.honeycomb.Shell$HomeActivity}"
+        drawable="ic_0016" />
+    <item
+        component="ComponentInfo{com.oneplus.deskclock/com.oneplus.deskclock.DeskClock}"
+        drawable="ic_0017" />
+    <item
+        component="ComponentInfo{com.banggood.client/com.banggood.client.module.startup.SplashActivity}"
+        drawable="ic_0018" />
+    <item
+        component="ComponentInfo{com.comuto/com.comuto.proxy.ProxyActivity}"
+        drawable="ic_0019" />
+    <item
+        component="ComponentInfo{com.google.android.talk/com.google.android.talk.SigningInActivity}"
+        drawable="ic_0020" />
+    <item
+        component="ComponentInfo{com.scheffsblend.designertools/org.cyanogenmod.designertools.ui.DesignerToolsActivity}"
+        drawable="ic_0021" />
+    <item
+        component="ComponentInfo{com.shazam.android/com.shazam.android.activities.SplashActivity}"
+        drawable="ic_0022" />
+    <item
+        component="ComponentInfo{com.spotify.music/com.spotify.music.MainActivity}"
+        drawable="ic_0023" />
+    <item
+        component="ComponentInfo{com.tinder/com.tinder.activities.LoginActivity}"
+        drawable="ic_0024" />
+    <item
+        component="ComponentInfo{com.truecaller/com.truecaller.ui.TruecallerInit}"
+        drawable="ic_0025" />
+    <item
+        component="ComponentInfo{org.mozilla.firefox/org.mozilla.firefox.App}"
+        drawable="ic_0026" />
+    <item
+        component="ComponentInfo{tunein.player/tunein.ui.actvities.TuneInHomeActivity}"
+        drawable="ic_0027" />
+    <item
+        component="ComponentInfo{com.android.documentsui/com.android.documentsui.LauncherActivity}"
+        drawable="ic_0028" />
+    <item
+        component="ComponentInfo{com.android.stk/com.android.stk.StkMain}"
+        drawable="ic_0029" />
+    <item
+        component="ComponentInfo{com.google.android.apps.tachyon/com.google.android.apps.tachyon.MainActivity}"
+        drawable="ic_0030" />
+    <item
+        component="ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.googlequicksearchbox.VoiceSearchActivity}"
+        drawable="ic_0031" />
+    <item
+        component="ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.googlequicksearchbox.SearchActivity}"
+        drawable="ic_0032" />
+    <item
+        component="ComponentInfo{com.oneplus.calculator/com.oneplus.calculator.Calculator}"
+        drawable="ic_0033" />
+    <item
+        component="ComponentInfo{com.oneplus.camera/com.oneplus.camera.OPCameraActivity}"
+        drawable="ic_0034" />
+    <item
+        component="ComponentInfo{com.oneplus.gallery/com.oneplus.gallery.OPGalleryActivity}"
+        drawable="ic_0035" />
+    <item
+        component="ComponentInfo{cdiscount.mobile/cdiscount.mobile.MainActivity}"
+        drawable="ic_0036" />
+    <item
+        component="ComponentInfo{cm.aptoide.pt/cm.aptoide.pt.v8engine.view.entry.EntryActivity}"
+        drawable="ic_0037" />
+    <item
+        component="ComponentInfo{com.adsk.sketchbook/com.adsk.sketchbook.SketchBook}"
+        drawable="ic_0038" />
+    <item
+        component="ComponentInfo{com.aftership.AfterShip/com.aftership.AfterShip.view.SplashActivity.SplashActivity}"
+        drawable="ic_0039" />
+    <item
+        component="ComponentInfo{com.alibaba.aliexpresshd/com.alibaba.aliexpresshd.module.home.MainActivity}"
+        drawable="ic_0040" />
+    <item
+        component="ComponentInfo{com.amazon.mShop.android.shopping/com.amazon.mShop.home.HomeActivity}"
+        drawable="ic_0041" />
+    <item
+        component="ComponentInfo{com.android.vending.billing.InAppBillingService.CLON/com.android.vending.billing.InAppBillingService.CLON.MainActivity-Original}"
+        drawable="ic_0042" />
+    <item
+        component="ComponentInfo{com.app.IrregularVerbsDragunkin/com.app.IrregularVerbsDragunkin.MainActivity}"
+        drawable="ic_0043" />
+    <item
+        component="ComponentInfo{com.app.coachseduction/com.app.coachseduction.activity.SplashScreenActivity}"
+        drawable="ic_0044" />
+    <item
+        component="ComponentInfo{com.app.smsseduction/com.app.smsseduction.MainActivity}"
+        drawable="ic_0045" />
+    <item
+        component="ComponentInfo{com.arjanvlek.oxygenupdater/com.arjanvlek.oxygenupdater.views.MainActivity}"
+        drawable="ic_0046" />
+    <item
+        component="ComponentInfo{com.backdrops.wallpapers/com.backdrops.wallpapers.WelcomeActivity}"
+        drawable="ic_0047" />
+    <item
+        component="ComponentInfo{com.balamurugan.sendanyfile/com.balamurugan.sendanyfile.MainActivity}"
+        drawable="ic_0048" />
+    <item
+        component="ComponentInfo{com.bitsmedia.android.muslimpro/com.bitsmedia.android.muslimpro.activities.SplashActivity}"
+        drawable="ic_0049" />
+    <item
+        component="ComponentInfo{com.bitstrips.imoji/com.bitstrips.imoji.ui.LoginActivity}"
+        drawable="ic_0050" />
+    <item
+        component="ComponentInfo{com.box.android/com.box.android.activities.login.SplashScreenActivity}"
+        drawable="ic_0051" />
+    <item
+        component="ComponentInfo{com.butakov.psebay/com.butakov.psebay.RunnerActivity}"
+        drawable="ic_0052" />
+    <item
+        component="ComponentInfo{com.byril.dots/com.byril.dots.AndroidActivity}"
+        drawable="ic_0053" />
+    <item
+        component="ComponentInfo{com.c4mprod.rtm/com.c4mprod.rtm.activities.LauncherActivity}"
+        drawable="ic_0054" />
+    <item
+        component="ComponentInfo{com.cloudmosa.puffinFree/com.cloudmosa.app.LemonActivity}"
+        drawable="ic_0055" />
+    <item
+        component="ComponentInfo{com.coffeebeanventures.easyvoicerecorder/com.digipom.easyvoicerecorder.ui.activity.EasyVoiceRecorderActivity}"
+        drawable="ic_0056" />
+    <item
+        component="ComponentInfo{com.cpuid.cpu_z/com.cpuid.cpu_z.MainActivity}"
+        drawable="ic_0057" />
+    <item
+        component="ComponentInfo{com.diandian.gog/com.diandian.gog.UnityPlayerNativeActivity}"
+        drawable="ic_0058" />
+    <item
+        component="ComponentInfo{com.discord/com.discord.screens.ScreenAux$Main}"
+        drawable="ic_0059" />
+    <item
+        component="ComponentInfo{com.droid.beard.man/com.droid.developer.le}"
+        drawable="ic_0060" />
+    <item
+        component="ComponentInfo{com.dropbox.android/com.dropbox.android.activity.DropboxBrowser}"
+        drawable="ic_0061" />
+    <item
+        component="ComponentInfo{com.duapps.recorder/com.duapps.screen.recorder.SplashActivity}"
+        drawable="ic_0062" />
+    <item
+        component="ComponentInfo{com.ea.game.nfs14_row/com.ea.game.nfs14_row.NFSActivity}"
+        drawable="ic_0063" />
+    <item
+        component="ComponentInfo{com.ebay.mobile/com.ebay.mobile.activities.MainActivity}"
+        drawable="ic_0064" />
+    <item
+        component="ComponentInfo{com.edf.edfetmoi/com.edf.edfetmoi.ui.home.SplashActivity}"
+        drawable="ic_0065" />
+    <item
+        component="ComponentInfo{com.estrongs.android.pop/com.estrongs.android.pop.app.openscreenad.NewSplashActivity}"
+        drawable="ic_0066" />
+    <item
+        component="ComponentInfo{com.facebook.katana/com.facebook.katana.LoginActivity}"
+        drawable="ic_0067" />
+    <item
+        component="ComponentInfo{com.facebook.orca/com.facebook.orca.auth.StartScreenActivity}"
+        drawable="ic_0068" />
+    <item
+        component="ComponentInfo{com.fakegps.mock/com.fakegps.mock.activities.NewMainActivity}"
+        drawable="ic_0069" />
+    <item
+        component="ComponentInfo{com.fgol.HungrySharkEvolution/com.fgol.FGOLUnityPlayerNativeActivity}"
+        drawable="ic_0070" />
+    <item
+        component="ComponentInfo{com.flashgap.fruitz/com.fruits.MainActivity}"
+        drawable="ic_0071" />
+    <item
+        component="ComponentInfo{com.flightradar24free/com.flightradar24free.SplashActivity}"
+        drawable="ic_0072" />
+    <item
+        component="ComponentInfo{com.fractiv.lanesplitter/com.unity3d.player.UnityPlayerNativeActivity}"
+        drawable="ic_0073" />
+    <item
+        component="ComponentInfo{com.friend.embratoriag7/com.friend.embratoria.SplashActivity}"
+        drawable="ic_0074" />
+    <item
+        component="ComponentInfo{com.ftw_and_co.happn/com.ftw_and_co.happn.ui.splash.SplashActivity}"
+        drawable="ic_0075" />
+    <item
+        component="ComponentInfo{com.gameloft.android.ANMP.GloftMOHM/com.gameloft.android.ANMP.GloftMOHM.MainActivity}"
+        drawable="ic_0076" />
+    <item
+        component="ComponentInfo{com.geecko.QuickLyric/com.geecko.QuickLyric.MainActivity}"
+        drawable="ic_0077" />
+    <item
+        component="ComponentInfo{com.genius.android/com.genius.android.MainActivity}"
+        drawable="ic_0078" />
+    <item
+        component="ComponentInfo{com.google.android.apps.photos.scanner/com.google.android.apps.photos.scanner.home.HomeActivity}"
+        drawable="ic_0079" />
+    <item
+        component="ComponentInfo{com.google.android.apps.translate/com.google.android.apps.translate.TranslateActivity}"
+        drawable="ic_0080" />
+    <item
+        component="ComponentInfo{com.google.android.keep/com.google.android.keep.activities.BrowseActivity}"
+        drawable="ic_0081" />
+    <item
+        component="ComponentInfo{com.google.android.play.games/com.google.android.gms.games.ui.destination.main.MainActivity}"
+        drawable="ic_0082" />
+    <item
+        component="ComponentInfo{com.google.earth/com.google.android.apps.earth.EarthActivity}"
+        drawable="ic_0083" />
+    <item
+        component="ComponentInfo{com.halfbrick.monsterdash/com.halfbrick.mortar.MortarGameActivity}"
+        drawable="ic_0084" />
+    <item
+        component="ComponentInfo{com.hellopal.android/com.hellopal.android.ui.activities.ActivitySplash}"
+        drawable="ic_0085" />
+    <item
+        component="ComponentInfo{com.hm.goe/com.hm.goe.app.HomeActivity}"
+        drawable="ic_0086" />
+    <item
+        component="ComponentInfo{com.hotornot.app/com.badoo.mobile.android.BadooActivity}"
+        drawable="ic_0087" />
+    <item
+        component="ComponentInfo{com.immobilegames.skidstorm/com.unity3d.player.UnityPlayerActivity}"
+        drawable="ic_0088" />
+    <item
+        component="ComponentInfo{com.imvu.mobilecordova/com.imvu.scotch.MainActivity}"
+        drawable="ic_0089" />
+    <item
+        component="ComponentInfo{com.instafolowers.whoviewdyprofinsta/com.instafolowers.whoviewdyprofinsta.SplashActivity}"
+        drawable="ic_0090" />
+    <item
+        component="ComponentInfo{com.instagram.android/com.instagram.android.activity.MainTabActivity}"
+        drawable="ic_0091" />
+    <item
+        component="ComponentInfo{com.intsig.camscanner/com.intsig.camscanner.WelcomeActivity}"
+        drawable="ic_0092" />
+    <item
+        component="ComponentInfo{com.ionic.viewapp/com.ionic.viewapp.MainActivity}"
+        drawable="ic_0093" />
+    <item
+        component="ComponentInfo{com.istlike.app/com.istlike.app.MainActivity}"
+        drawable="ic_0094" />
+    <item
+        component="ComponentInfo{com.joeware.android.gpulumera/com.joeware.android.gpulumera.camera.ActivityCamera}"
+        drawable="ic_0095" />
+    <item
+        component="ComponentInfo{com.jy.iconchanger.ad/com.jy.application.splash.SplashActivity}"
+        drawable="ic_0096" />
+    <item
+        component="ComponentInfo{com.kakao.talk/com.kakao.talk.activity.SplashActivity}"
+        drawable="ic_0097" />
+    <item
+        component="ComponentInfo{com.keyspice.realragefree/com.keyspice.base.activities.StartActivity}"
+        drawable="ic_0098" />
+    <item
+        component="ComponentInfo{com.kimcy929.hashtags/com.kimcy929.hashtags.taskgetcategory.HashTagCategoryActivity}"
+        drawable="ic_0099" />
+    <item
+        component="ComponentInfo{com.lbe.parallel.intl/com.lbe.parallel.ui.tour.SplashActivity}"
+        drawable="ic_0100" />
+    <item
+        component="ComponentInfo{com.leomaz.miui/com.leomaz.miui.HomeActivity}"
+        drawable="ic_0101" />
+    <item
+        component="ComponentInfo{com.linkedin.android/com.linkedin.android.authenticator.LaunchActivity}"
+        drawable="ic_0102" />
+    <item
+        component="ComponentInfo{com.loadcomplete.lonelymitty/com.unity3d.player.UnityPlayerNativeActivity}"
+        drawable="ic_0103" />
+    <item
+        component="ComponentInfo{com.lonelycatgames.Xplore/com.lonelycatgames.Xplore.Browser}"
+        drawable="ic_0104" />
+    <item
+        component="ComponentInfo{com.magicbit.app.sf/com.magicbit.app.sf.main}"
+        drawable="ic_0105" />
+    <item
+        component="ComponentInfo{com.makabaka.hellrider2/com.unity3d.player.UnityPlayerActivity}"
+        drawable="ic_0106" />
+    <item
+        component="ComponentInfo{com.map.distance/com.map.distance.SplashActivity}"
+        drawable="ic_0107" />
+    <item
+        component="ComponentInfo{com.mapswithme.maps.pro/com.mapswithme.maps.DownloadResourcesActivity}"
+        drawable="ic_0108" />
+    <item
+        component="ComponentInfo{com.mhabib.profiledetective/com.mhabib.profiledetective.Login}"
+        drawable="ic_0109" />
+    <item
+        component="ComponentInfo{com.microsoft.office.powerpoint/com.microsoft.office.apphost.LaunchActivity}"
+        drawable="ic_0110" />
+    <item
+        component="ComponentInfo{com.microsoft.office.word/com.microsoft.office.apphost.LaunchActivity}"
+        drawable="ic_0111" />
+    <item
+        component="ComponentInfo{com.miniclip.agar.io/com.miniclip.agar.io.AgarioActivity}"
+        drawable="ic_0112" />
+    <item
+        component="ComponentInfo{com.mobiles.numberbookdirectory/com.mobiles.numberbookdirectory.MyLauncherActivity}"
+        drawable="ic_0113" />
+    <item
+        component="ComponentInfo{com.monarchdesigns.moonriseiconpack/com.monarchdesigns.moonriseiconpack.HomeActivity}"
+        drawable="ic_0114" />
+    <item
+        component="ComponentInfo{com.mygamesisland.is.snake.mlg.edition/com.mygamesisland.is.snake.mlg.edition.AppEntry}"
+        drawable="ic_0115" />
+    <item
+        component="ComponentInfo{com.natewren.glasspackfree/com.natewren.dashboard.SplashScreen}"
+        drawable="ic_0116" />
+    <item
+        component="ComponentInfo{com.natewren.linesfree/com.natewren.dashboard.SplashScreen}"
+        drawable="ic_0117" />
+    <item
+        component="ComponentInfo{com.natewren.murderedoutfree/com.natewren.dashboard.SplashScreen}"
+        drawable="ic_0118" />
+    <item
+        component="ComponentInfo{com.natewren.thegridfree/com.natewren.dashboard.SplashScreen}"
+        drawable="ic_0119" />
+    <item
+        component="ComponentInfo{com.neuralprisma/com.prisma.ui.starter.StarterActivity}"
+        drawable="ic_0120" />
+    <item
+        component="ComponentInfo{com.ninegag.android.app/com.ninegag.android.app.ui.SplashScreenActivity}"
+        drawable="ic_0121" />
+    <item
+        component="ComponentInfo{com.nll.acr/com.nll.acr.activity.MainActivity}"
+        drawable="ic_0122" />
+    <item
+        component="ComponentInfo{com.once.android/com.once.android.ui.activities.SplashScreenActivity}"
+        drawable="ic_0123" />
+    <item
+        component="ComponentInfo{com.oneplus.filemanager/com.oneplus.filemanager.HomePageActivity}"
+        drawable="ic_0124" />
+    <item
+        component="ComponentInfo{com.oneplus.soundrecorder/com.oneplus.soundrecorder.SoundRecorder}"
+        drawable="ic_0125" />
+    <item
+        component="ComponentInfo{com.opera.vpn/com.opera.operavpn.SplashActivity}"
+        drawable="ic_0126" />
+    <item
+        component="ComponentInfo{com.ouibus.mobile/com.ouibus.mobile.MainActivity}"
+        drawable="ic_0127" />
+    <item
+        component="ComponentInfo{com.oxylane.android.decathlon/com.oxylane.android.decathlon.ui.activity.impl.splash.SplashActivity}"
+        drawable="ic_0128" />
+    <item
+        component="ComponentInfo{com.paypal.android.p2pmobile/com.paypal.android.p2pmobile.startup.activities.StartupActivity}"
+        drawable="ic_0129" />
+    <item
+        component="ComponentInfo{com.pictime.kiabi.activity/com.pictime.kiabicommun.loading.ActivityLoading}"
+        drawable="ic_0130" />
+    <item
+        component="ComponentInfo{com.pixlr.express/com.pixlr.express.StartupActivity}"
+        drawable="ic_0131" />
+    <item
+        component="ComponentInfo{com.pluscubed.velociraptor/com.pluscubed.velociraptor.settings.SettingsActivity}"
+        drawable="ic_0132" />
+    <item
+        component="ComponentInfo{com.popularapp.videodownloaderforinstagram/com.popularapp.videodownloaderforinstagram.MainTabActivity}"
+        drawable="ic_0133" />
+    <item
+        component="ComponentInfo{com.primatelabs.geekbench/com.primatelabs.geekbench.HomeActivity}"
+        drawable="ic_0134" />
+    <item
+        component="ComponentInfo{com.projet.voltaire/md5347260800e928adb3a8da252dbbd0434.SplashWoonozActivity}"
+        drawable="ic_0135" />
+    <item
+        component="ComponentInfo{com.qmxoiuywxcouqssrnjft/com.qmxoiuywxcouqssrnjft.Main}"
+        drawable="ic_0136" />
+    <item
+        component="ComponentInfo{com.qmxoiuywxcouqssrnjft/com.qmxoiuywxcouqssrnjft.MainSw}"
+        drawable="ic_0137" />
+    <item
+        component="ComponentInfo{com.rcplatform.filtergrid/com.rcplatform.bestfont.SplashActivity}"
+        drawable="ic_0138" />
+    <item
+        component="ComponentInfo{com.rcplatform.nocrop/com.rcplatform.nocrop.activity.LogoActivity}"
+        drawable="ic_0139" />
+    <item
+        component="ComponentInfo{com.reddit.frontpage/com.reddit.frontpage.StartActivity}"
+        drawable="ic_0140" />
+    <item
+        component="ComponentInfo{com.remoteutilities.mviewer/com.embarcadero.firemonkey.FMXNativeActivity}"
+        drawable="ic_0141" />
+    <item
+        component="ComponentInfo{com.riteshsahu.SMSBackupRestore/com.riteshsahu.SMSBackupRestore.activities.IntroActivity}"
+        drawable="ic_0142" />
+    <item
+        component="ComponentInfo{com.ryanair.cheapflights/com.ryanair.cheapflights.ui.SplashScreenActivity}"
+        drawable="ic_0143" />
+    <item
+        component="ComponentInfo{com.sfr.android.redmoncompte/com.sfr.android.redmoncompte.MonCompteMain}"
+        drawable="ic_0144" />
+    <item
+        component="ComponentInfo{com.sixthsolution.weatherwiz/com.sixthsolution.weather360.ui.main.MainActivity}"
+        drawable="ic_0145" />
+    <item
+        component="ComponentInfo{com.skype.raider/com.skype.raider.Main}"
+        drawable="ic_0146" />
+    <item
+        component="ComponentInfo{com.snapchat.android/com.snapchat.android.LandingPageActivity}"
+        drawable="ic_0147" />
+    <item
+        component="ComponentInfo{com.sunraylabs.socialtags/com.sunraylabs.socialtags.view.activity.MainActivity}"
+        drawable="ic_0148" />
+    <item
+        component="ComponentInfo{com.teamviewer.quicksupport.market/com.teamviewer.quicksupport.ui.QSActivity}"
+        drawable="ic_0149" />
+    <item
+        component="ComponentInfo{com.teamviewer.teamviewer.market.mobile/com.teamviewer.remotecontrollib.activity.MainActivity}"
+        drawable="ic_0150" />
+    <item
+        component="ComponentInfo{com.themezilla.pixelui/com.themezilla.pixelui.activities.SplashActivity}"
+        drawable="ic_0151" />
+    <item
+        component="ComponentInfo{com.tranzmate/com.moovit.home.HomeActivity}"
+        drawable="ic_0152" />
+    <item
+        component="ComponentInfo{com.twitter.android/com.twitter.android.StartActivity}"
+        drawable="ic_0153" />
+    <item
+        component="ComponentInfo{com.ubisoft.hungrysharkworld/com.fgol.FGOLUnityPlayerNativeActivity}"
+        drawable="ic_0154" />
+    <item
+        component="ComponentInfo{com.uppack.iconstructorapp/com.uppack.iconstructorapp.SplashActivity}"
+        drawable="ic_0155" />
+    <item
+        component="ComponentInfo{com.viber.voip/com.viber.voip.WelcomeActivity}"
+        drawable="ic_0156" />
+    <item
+        component="ComponentInfo{com.vkontakte.android/com.vkontakte.android.MainActivity}"
+        drawable="ic_0157" />
+    <item
+        component="ComponentInfo{com.vsco.cam/com.vsco.cam.navigation.LithiumActivity}"
+        drawable="ic_0158" />
+    <item
+        component="ComponentInfo{com.wakdev.wdnfc/com.wakdev.nfctools.free.MainActivityFree}"
+        drawable="ic_0159" />
+    <item
+        component="ComponentInfo{com.whatsapp/com.whatsapp.Main}"
+        drawable="ic_0160" />
+    <item
+        component="ComponentInfo{com.whoviwed.myprofilefb/com.whoviwed.myprofilefb.HomeScreenActivity}"
+        drawable="ic_0161" />
+    <item
+        component="ComponentInfo{de.dowinstapec.instapp/de.dowinstapec.instapp.MainActivity}"
+        drawable="ic_0162" />
+    <item
+        component="ComponentInfo{de.flixbus.app/de.meinfernbus.Main}"
+        drawable="ic_0163" />
+    <item
+        component="ComponentInfo{de.stollenmayer.philipp.Pop_1_1_Android/com.ansca.corona.CoronaActivity}"
+        drawable="ic_0164" />
+    <item
+        component="ComponentInfo{de.zalando.mobile/de.zalando.mobile.ui.start.SplashActivity}"
+        drawable="ic_0165" />
+    <item
+        component="ComponentInfo{dp.ws.popcorntime/se.popcorn_time.mobile.ui.MainActivity}"
+        drawable="ic_0166" />
+    <item
+        component="ComponentInfo{eu.chainfire.supersu/eu.chainfire.supersu.MainActivity-Material}"
+        drawable="ic_0167" />
+    <item
+        component="ComponentInfo{fb.video.downloader/com.linterna.fbvideodownloader.StartActivity}"
+        drawable="ic_0168" />
+    <item
+        component="ComponentInfo{fr.cnaf.mobile.moncompte/fr.cnaf.mobile.moncompte.MainActivity}"
+        drawable="ic_0169" />
+    <item
+        component="ComponentInfo{fr.lcl.android.customerarea/fr.lcl.android.customerarea.activities.MarketActivity}"
+        drawable="ic_0170" />
+    <item
+        component="ComponentInfo{fr.nexity.nexity/fr.nexity.newV.activities.SplashScreen}"
+        drawable="ic_0171" />
+    <item
+        component="ComponentInfo{ginlemon.iconpackstudio/ginlemon.iconpackstudio.editor.homeActivity.HomeActivity}"
+        drawable="ic_0172" />
+    <item
+        component="ComponentInfo{ginlemon.iconpackstudio.exported/ginlemon.iconpackstudio.exported.MainActivity}"
+        drawable="ic_0173" />
+    <item
+        component="ComponentInfo{imoblife.toolbox.full/imoblife.toolbox.full.ASplash}"
+        drawable="ic_0174" />
+    <item
+        component="ComponentInfo{info.androidhive.spyboy/com.example.spyboy.SplashScreen}"
+        drawable="ic_0175" />
+    <item
+        component="ComponentInfo{kik.android/kik.android.chat.activity.IntroActivity}"
+        drawable="ic_0176" />
+    <item
+        component="ComponentInfo{me.twrp.twrpapp/me.twrp.officialtwrpapp.activities.MainActivity}"
+        drawable="ic_0177" />
+    <item
+        component="ComponentInfo{net.androidsquad.androidmaster/net.androidsquad.androidmaster.WelcomeActivity}"
+        drawable="ic_0178" />
+    <item
+        component="ComponentInfo{net.lovoo.android/net.lovoo.ui.activities.phone.LovooStartActivity}"
+        drawable="ic_0179" />
+    <item
+        component="ComponentInfo{net.oneplus.forums/net.oneplus.forums.ui.activity.CheckPermissionActivity}"
+        drawable="ic_0180" />
+    <item
+        component="ComponentInfo{net.oneplus.weather/net.oneplus.weather.app.MainActivity}"
+        drawable="ic_0181" />
+    <item
+        component="ComponentInfo{org.mozilla.focus/org.mozilla.focus.activity.MainActivity}"
+        drawable="ic_0182" />
+    <item
+        component="ComponentInfo{org.zwanoo.android.speedtest/com.ookla.speedtest.softfacade.MainActivity}"
+        drawable="ic_0183" />
+    <item
+        component="ComponentInfo{pigbang.flex.su/com.unity3d.player.UnityPlayerNativeActivity}"
+        drawable="ic_0184" />
+    <item
+        component="ComponentInfo{stericson.busybox/stericson.busybox.Activity.MainActivity}"
+        drawable="ic_0185" />
+    <item
+        component="ComponentInfo{tk.ty3uk.oxygenhiddensettings/tk.ty3uk.oxygenhiddensettings.MainActivity}"
+        drawable="ic_0186" />
+    <item
+        component="ComponentInfo{website.leifs.delta/website.leifs.delta.activities.SplashActivity}"
+        drawable="ic_0187" />
+    <item
+        component="ComponentInfo{yarolegovich.materialterminal/yarolegovich.materialterminal.Term}"
+        drawable="ic_0188" />
+    <item
+        component="ComponentInfo{yqtrack.app/yqtrack.app.ui.splash.SplashActivity}"
+        drawable="ic_0189" />
 </resources>
